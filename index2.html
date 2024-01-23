@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css2.css">
+  <title>Diandra Cahya Saputra</title>
+</head>
+
+<body>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <nav class="navbar navbar-expand-lg navbar-dark ">
+    <img width="50" src="Rikka Logo.png" alt="jpeg">
+    <h2 class="m-2">Diandra Cahya</h2>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="NavbarEnak navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ">
+        <li class="nav-item active">
+          <a class="nav-link" href="#Home">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#About">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Project">Project</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Kontak">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home -->
+
+  <div class="Home" id="Home">
+    <div class="FotoHome">
+    </div>
+    <div class="TeksHome">
+      <h1>Hi! I'm Diandra Cahya <br>Saputra</h1>
+      <h4><span class="auto-type"></span></h4>
+
+      <!-- AUTOTYPE -->
+      <script>
+        var typed = new Typed(".auto-type", {
+          strings: ["Student At SMKN 2 Surabaya", "Software engineering"],
+          typeSpeed: 60,
+          backSpeed: 60,
+          loop: true
+        });
+      </script>
+    </div>
+  </div>
+
+  <!-- About me -->
+  <div class="BgSkill" id="About">
+    <div class="container">
+      <h2 class="JdlAbout my-3">About me</h2>
+      <div class="about-me-text">
+        <p>I am a student in software engineering. I started learning or knowing how to code from grade 9 and
+          the first programming language I mastered the basics of was C++,
+          I am interested in software engineering because I once created/changed game scripts using the LUA
+          programming
+          language
+          always looking for opportunities to explore new technologies and create amazing online experiences.</p>
+      </div>
+
+      <h2>Passions</h2>
+      <ul class="interests-list">
+        <li>Web Designer</li>
+        <li>Front-End Programmer</li>
+      </ul>
+      <h2>And these are my basic skills :</h2>
+
+      <!-- Skill -->
+      <div class="container mt-4">
+        <div class="row">
+          <!-- HTML Card -->
+          <div class="col-md-3 mb-4">
+            <div class="card html-card">
+              <div class="card-body">
+                <h5 class="card-title">HTML</h5>
+                <p class="card-text">Hypertext Markup Language</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Java Card -->
+          <div class="col-md-3 mb-4">
+            <div class="card java-card">
+              <div class="card-body">
+                <h5 class="card-title">Java</h5>
+                <p class="card-text">Object-oriented programming language</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- JavaScript Card -->
+          <div class="col-md-3 mb-4">
+            <div class="card javascript-card">
+              <div class="card-body">
+                <h5 class="card-title">JavaScript</h5>
+                <p class="card-text">Scripting language for web development</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- PHP Card -->
+          <div class="col-md-3 mb-4">
+            <div class="card php-card">
+              <div class="card-body">
+                <h5 class="card-title">PHP</h5>
+                <p class="card-text">Server-side scripting language</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- C++ Card -->
+          <div class="col-md-4 mb-4">
+            <div class="card cpp-card">
+              <div class="card-body">
+                <h5 class="card-title">C++</h5>
+                <p class="card-text">General-purpose programming language</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- CSS Card -->
+          <div class="col-md-4 mb-4">
+            <div class="card css-card">
+              <div class="card-body">
+                <h5 class="card-title">CSS</h5>
+                <p class="card-text">Cascading Style Sheets for styling web pages</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bootstrap Card -->
+          <div class="col-md-4 mb-4">
+            <div class="card bootstrap-card">
+              <div class="card-body">
+                <h5 class="card-title">Bootstrap</h5>
+                <p class="card-text">Front-end framework for web development</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="BgProject " id="Project">
+    <div class="container">
+      <h2 class="mt-4 mb-4">Project Showcase</h2>
+      <div class="row">
+        <!-- Project Box 1 -->
+        <div class="col-md-4 project-box">
+          <img src="Foto/Screenshot 2024-01-20 190159.png" alt="Project 1" class="project-image">
+          <h4 class="mt-2">Gatot AC Mobil</h4>
+          <p>Website that contains information about Car AC Services</p>
+        </div>
+
+        <!-- <div class="col-md-4 project-box">
+          <img src="" alt="Project 2"
+            class="project-image">
+          <h4 class="mt-2">Project 2</h4>
+          <p>Description of Project 2.</p>
+        </div>
+
+        <div class="col-md-4 project-box">
+          <img src="" alt="Project 3"
+            class="project-image">
+          <h4 class="mt-2">Project 3</h4>
+          <p>Description of Project 3.</p>
+        </div> -->
+      </div>
+    </div>
+
+    <footer class="py-3" id="Kontak"> 
+      <div class="container text-center">
+        <ul class="list-inline mb-0">
+          <li class="list-inline-item">
+            <a href="https://www.instagram.com/escahya" target="_blank" class="text-dark">
+              <i class="fab fa-instagram fa-2x"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="mailto:Diandracahya4@gmail.com" class="text-dark">
+              <i class="far fa-envelope fa-2x"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.facebook.com/diandra.cahya.54/" target="_blank" class="text-dark">
+              <i class="fab fa-facebook fa-2x"></i>
+            </a>
+          </li>
+        </ul>
+        <p class="mt-2">&copy;2024 Diandra. All rights reserved.</p>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/2cbc3341a8.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
