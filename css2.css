@@ -1,0 +1,183 @@
+body {
+  overflow-x: hidden;
+  font-family: 'Comic Neue', cursive;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  color: white;
+  position: fixed;
+  z-index: 5;
+}
+
+.NavbarEnak {
+  display: flex;
+  justify-content: end;
+}
+
+
+.Home {
+  display: flex;
+  align-items: center;
+  color: black;
+  background: linear-gradient(to top, #9ca734, #F0EDCF);
+}
+
+.TeksHome {
+  text-align: center;
+  position: absolute;
+  width: 50%;
+  left: -100px;
+}
+
+.FotoHome {
+  min-height: 100vh;
+  background-image: url(Foto2.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  left: 300px;
+  background-position: center;
+  background-position-y: -8px;
+}
+
+.BgSkill {
+  background: linear-gradient(to bottom, #9ca734, #B5651D);
+}
+
+.container {
+  padding-top: 50px;
+}
+
+@media (max-width:576px) {
+
+  .NavbarEnak {
+    display: flex;
+    justify-content: center;
+  }
+
+  .Home {
+    display: flex;
+    align-items: center;
+    color: black;
+  }
+
+  .TeksHome {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    left: 1px;
+    top: 400px;
+    color: white;
+
+  }
+
+  .TeksHome h1 {
+    font-size: 30px;
+  }
+
+  .FotoHome {
+    background-image: url(Foto2.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    left: 0px;
+    background-position: center;
+    background-position-y: -8px;
+  }
+
+  .navbar {
+    background-color: black;
+    width: 100%;
+    color: white;
+    position: fixed;
+    z-index: 5;
+  }
+}
+
+.About {
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+
+}
+
+.about-me-text {
+  font-size: 20px;
+}
+
+.JdlAbout {
+  text-align: center;
+}
+
+.interests-list {
+  font-size: 20px;
+}
+
+.motto {
+  font-size: 26px;
+}
+
+/* Card */
+
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.html-card {
+  background-color: #cd903f;
+  box-shadow: 0 4px 8px;
+}
+
+.java-card {
+  background-color: #cd903f;
+  box-shadow: 0 4px 8px;
+}
+
+.javascript-card {
+  background-color: #cd903f;
+  box-shadow: 0 4px 8px;
+}
+
+.php-card {
+  background-color: #cd903f;
+  box-shadow: 0 4px 8px;
+}
+
+.cpp-card {
+  background-color: #cd903f;
+  box-shadow: 0 4px 8px;
+}
+
+.css-card {
+  background-color: #cd903f;
+  box-shadow: 0 4px 8px;
+}
+
+.bootstrap-card {
+  background-color: #cd903f;
+  box-shadow: 0 4px 8px;
+}
+
+/* Project */
+
+.project-box {
+  margin-bottom: 20px;
+}
+.project-image {
+  border: solid black 5px;
+  border-radius: 20px;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.BgProject {
+  background: linear-gradient(to bottom, #B5651D, orange );
+}
+
+
